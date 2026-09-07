@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Grok CAD Agent">
+  <defs>
+    <linearGradient id="faceTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7ee0c6"/>
+      <stop offset="100%" stop-color="#3aa88f"/>
+    </linearGradient>
+    <linearGradient id="faceLeft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a8f7a"/>
+      <stop offset="100%" stop-color="#163f38"/>
+    </linearGradient>
+    <linearGradient id="faceRight" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4ec4aa"/>
+      <stop offset="100%" stop-color="#1c5c50"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="24" fill="#10161f"/>
+  <!-- isometric cube -->
+  <polygon points="64,22 104,44 64,66 24,44" fill="url(#faceTop)"/>
+  <polygon points="24,44 64,66 64,106 24,84" fill="url(#faceLeft)"/>
+  <polygon points="64,66 104,44 104,84 64,106" fill="url(#faceRight)"/>
+  <!-- spark / agent mark -->
+  <circle cx="96" cy="30" r="10" fill="#e7eef7"/>
+  <circle cx="96" cy="30" r="5" fill="#10161f"/>
+</svg>
