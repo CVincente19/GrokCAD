@@ -1,0 +1,10 @@
+; Addon Manager metadata (legacy companion to package.xml)
+workbenches=GrokCADWorkbench
+icon=resources/icons/GrokCAD.svg
+[general]
+name=GrokCAD
+version=1.0.0
+description=Grok CAD Agent — agentic mechanical design inside FreeCAD, powered by xAI Grok.
+license=MIT
+pythonmin=3.11
+freecadmin=1.0.0

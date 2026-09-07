@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>GrokCAD</name>
+  <description>Grok CAD Agent — a native FreeCAD workbench that turns the modeler into an agentic mechanical-design environment powered by xAI Grok. Natural language in, parametric PartDesign out, with vision, tool calling, and human-in-the-loop code approval.</description>
+  <version>1.0.0</version>
+  <date>2026-03-25</date>
+  <maintainer email="grokcad@localhost">GrokCAD contributors</maintainer>
+  <license file="LICENSE">MIT</license>
+  <url type="readme">README.md</url>
+  <icon>resources/icons/GrokCAD.svg</icon>
+  <tag>ai</tag>
+  <tag>grok</tag>
+  <tag>xai</tag>
+  <tag>agent</tag>
+  <tag>partdesign</tag>
+  <tag>chat</tag>
+  <freecadmin>1.0.0</freecadmin>
+  <depend optional="false">openai</depend>
+  <depend optional="true">Pillow</depend>
+  <content>
+    <workbench>
+      <classname>GrokCADWorkbench</classname>
+      <subdirectory>./</subdirectory>
+      <icon>resources/icons/GrokCAD.svg</icon>
+    </workbench>
+  </content>
+</package>
