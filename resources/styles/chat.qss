@@ -1,0 +1,149 @@
+/* Grok CAD Agent — dark industrial chat theme.
+   Loaded onto the dock widget only; does not restyle all of FreeCAD. */
+
+#GrokCADRoot, #Transcript {
+    background: #10161f;
+    color: #e7eef7;
+    font-size: 13px;
+}
+
+QDockWidget#GrokCADChatPanel {
+    color: #e7eef7;
+    titlebar-close-icon: none;
+}
+
+QLabel, QCheckBox, QGroupBox {
+    color: #d5deea;
+}
+
+QLabel#MsgWho {
+    color: #7ee0c6;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+}
+
+QLabel#MsgTime {
+    color: #6b7788;
+    font-size: 11px;
+}
+
+QLabel#StatusStrip {
+    color: #8b97a8;
+    font-size: 11px;
+    padding: 4px 2px 0 2px;
+}
+
+QLabel#ToolReason {
+    color: #c9d4e3;
+    font-style: italic;
+}
+
+QFrame#Msg_user {
+    background: #182433;
+    border: 1px solid #27405c;
+    border-radius: 8px;
+}
+
+QFrame#Msg_assistant {
+    background: #151c27;
+    border: 1px solid #243044;
+    border-radius: 8px;
+}
+
+QFrame#Msg_system {
+    background: #17140f;
+    border: 1px solid #3a3220;
+    border-radius: 8px;
+}
+
+QFrame#ToolCallCard {
+    background: #1b2114;
+    border: 1px solid #3d4a22;
+    border-radius: 6px;
+}
+
+QTextBrowser {
+    background: transparent;
+    color: #e7eef7;
+    border: none;
+    selection-background-color: #1f4d45;
+}
+
+QTextBrowser a { color: #7ee0c6; }
+
+QPlainTextEdit {
+    background: #0b1220;
+    color: #d6e2f0;
+    border: 1px solid #2a3548;
+    border-radius: 4px;
+    font-family: "Noto Sans Mono", "Source Code Pro", "DejaVu Sans Mono", monospace;
+    font-size: 12px;
+}
+
+QComboBox, QSpinBox, QDoubleSpinBox, QLineEdit {
+    background: #0b1220;
+    color: #e7eef7;
+    border: 1px solid #2a3548;
+    border-radius: 4px;
+    padding: 2px 4px;
+    min-height: 20px;
+}
+
+QComboBox QAbstractItemView {
+    background: #151c27;
+    color: #e7eef7;
+    selection-background-color: #1f4d45;
+}
+
+QPushButton, QToolButton {
+    background: #1c2736;
+    color: #e7eef7;
+    border: 1px solid #314258;
+    border-radius: 4px;
+    padding: 3px 7px;
+    min-height: 20px;
+}
+
+QToolButton {
+    min-width: 26px;
+    padding: 3px 5px;
+}
+
+QPushButton:hover {
+    background: #243246;
+    border-color: #7ee0c6;
+}
+
+QPushButton:pressed {
+    background: #152018;
+}
+
+QPushButton:disabled {
+    color: #667182;
+    border-color: #243044;
+    background: #151c27;
+}
+
+QScrollArea {
+    background: #10161f;
+    border: 1px solid #1c2533;
+    border-radius: 6px;
+}
+
+QScrollBar:vertical {
+    background: #10161f;
+    width: 10px;
+    margin: 2px;
+}
+QScrollBar::handle:vertical {
+    background: #2a3548;
+    border-radius: 4px;
+    min-height: 24px;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0; }
+
+QCheckBox::indicator {
+    width: 14px;
+    height: 14px;
+}
